@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3D50D1E2836D382008F9072 /* MarsRoverAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D50D1D2836D382008F9072 /* MarsRoverAppApp.swift */; };
+		D3D50D222836D385008F9072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D50D212836D385008F9072 /* Assets.xcassets */; };
+		D3D50D252836D385008F9072 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D50D242836D385008F9072 /* Preview Assets.xcassets */; };
+		D3D50D2F2836D385008F9072 /* MarsRoverAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D50D2E2836D385008F9072 /* MarsRoverAppTests.swift */; };
+		D3D50D392836D385008F9072 /* MarsRoverAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D50D382836D385008F9072 /* MarsRoverAppUITests.swift */; };
+		D3D50D3B2836D385008F9072 /* MarsRoverAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D50D3A2836D385008F9072 /* MarsRoverAppUITestsLaunchTests.swift */; };
+		D3D50D4B2836D434008F9072 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D50D4A2836D434008F9072 /* MainView.swift */; };
+		D3D50D4D2836D451008F9072 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D50D4C2836D451008F9072 /* CameraView.swift */; };
+		D3D50D4F2836D4E1008F9072 /* CameraDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D50D4E2836D4E1008F9072 /* CameraDetailView.swift */; };
+		D3D50D512836D4F2008F9072 /* CameraListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D50D502836D4F2008F9072 /* CameraListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3D50D2B2836D385008F9072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3D50D122836D382008F9072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D50D192836D382008F9072;
+			remoteInfo = MarsRoverApp;
+		};
+		D3D50D352836D385008F9072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3D50D122836D382008F9072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D50D192836D382008F9072;
+			remoteInfo = MarsRoverApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3D50D1A2836D382008F9072 /* MarsRoverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsRoverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D50D1D2836D382008F9072 /* MarsRoverAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverAppApp.swift; sourceTree = "<group>"; };
+		D3D50D212836D385008F9072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3D50D242836D385008F9072 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3D50D2A2836D385008F9072 /* MarsRoverAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsRoverAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D50D2E2836D385008F9072 /* MarsRoverAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverAppTests.swift; sourceTree = "<group>"; };
+		D3D50D342836D385008F9072 /* MarsRoverAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsRoverAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D50D382836D385008F9072 /* MarsRoverAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverAppUITests.swift; sourceTree = "<group>"; };
+		D3D50D3A2836D385008F9072 /* MarsRoverAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3D50D4A2836D434008F9072 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D3D50D4C2836D451008F9072 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		D3D50D4E2836D4E1008F9072 /* CameraDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraDetailView.swift; sourceTree = "<group>"; };
+		D3D50D502836D4F2008F9072 /* CameraListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraListView.swift; sourceTree = "<group>"; };
+		D3D50D552836E158008F9072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D3D50D582836E651008F9072 /* JuliusSansOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "JuliusSansOne-Regular.ttf"; path = "../../../../../../Downloads/Julius_Sans_One/JuliusSansOne-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3D50D172836D382008F9072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D50D272836D385008F9072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D50D312836D385008F9072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3D50D112836D382008F9072 = {
+			isa = PBXGroup;
+			children = (
+				D3D50D1C2836D382008F9072 /* MarsRoverApp */,
+				D3D50D2D2836D385008F9072 /* MarsRoverAppTests */,
+				D3D50D372836D385008F9072 /* MarsRoverAppUITests */,
+				D3D50D1B2836D382008F9072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3D50D1B2836D382008F9072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3D50D1A2836D382008F9072 /* MarsRoverApp.app */,
+				D3D50D2A2836D385008F9072 /* MarsRoverAppTests.xctest */,
+				D3D50D342836D385008F9072 /* MarsRoverAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D50D1C2836D382008F9072 /* MarsRoverApp */ = {
+			isa = PBXGroup;
+			children = (
+				D3D50D562836E5F9008F9072 /* Resources */,
+				D3D50D552836E158008F9072 /* Info.plist */,
+				D3D50D472836D3F1008F9072 /* View */,
+				D3D50D1D2836D382008F9072 /* MarsRoverAppApp.swift */,
+				D3D50D212836D385008F9072 /* Assets.xcassets */,
+				D3D50D232836D385008F9072 /* Preview Content */,
+			);
+			path = MarsRoverApp;
+			sourceTree = "<group>";
+		};
+		D3D50D232836D385008F9072 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3D50D242836D385008F9072 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3D50D2D2836D385008F9072 /* MarsRoverAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D50D2E2836D385008F9072 /* MarsRoverAppTests.swift */,
+			);
+			path = MarsRoverAppTests;
+			sourceTree = "<group>";
+		};
+		D3D50D372836D385008F9072 /* MarsRoverAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D50D382836D385008F9072 /* MarsRoverAppUITests.swift */,
+				D3D50D3A2836D385008F9072 /* MarsRoverAppUITestsLaunchTests.swift */,
+			);
+			path = MarsRoverAppUITests;
+			sourceTree = "<group>";
+		};
+		D3D50D472836D3F1008F9072 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3D50D4A2836D434008F9072 /* MainView.swift */,
+				D3D50D4C2836D451008F9072 /* CameraView.swift */,
+				D3D50D4E2836D4E1008F9072 /* CameraDetailView.swift */,
+				D3D50D502836D4F2008F9072 /* CameraListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3D50D562836E5F9008F9072 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3D50D572836E611008F9072 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D3D50D572836E611008F9072 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D3D50D582836E651008F9072 /* JuliusSansOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3D50D192836D382008F9072 /* MarsRoverApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D50D3E2836D385008F9072 /* Build configuration list for PBXNativeTarget "MarsRoverApp" */;
+			buildPhases = (
+				D3D50D162836D382008F9072 /* Sources */,
+				D3D50D172836D382008F9072 /* Frameworks */,
+				D3D50D182836D382008F9072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsRoverApp;
+			productName = MarsRoverApp;
+			productReference = D3D50D1A2836D382008F9072 /* MarsRoverApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3D50D292836D385008F9072 /* MarsRoverAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D50D412836D385008F9072 /* Build configuration list for PBXNativeTarget "MarsRoverAppTests" */;
+			buildPhases = (
+				D3D50D262836D385008F9072 /* Sources */,
+				D3D50D272836D385008F9072 /* Frameworks */,
+				D3D50D282836D385008F9072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D50D2C2836D385008F9072 /* PBXTargetDependency */,
+			);
+			name = MarsRoverAppTests;
+			productName = MarsRoverAppTests;
+			productReference = D3D50D2A2836D385008F9072 /* MarsRoverAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3D50D332836D385008F9072 /* MarsRoverAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D50D442836D385008F9072 /* Build configuration list for PBXNativeTarget "MarsRoverAppUITests" */;
+			buildPhases = (
+				D3D50D302836D385008F9072 /* Sources */,
+				D3D50D312836D385008F9072 /* Frameworks */,
+				D3D50D322836D385008F9072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D50D362836D385008F9072 /* PBXTargetDependency */,
+			);
+			name = MarsRoverAppUITests;
+			productName = MarsRoverAppUITests;
+			productReference = D3D50D342836D385008F9072 /* MarsRoverAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3D50D122836D382008F9072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D3D50D192836D382008F9072 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					D3D50D292836D385008F9072 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = D3D50D192836D382008F9072;
+					};
+					D3D50D332836D385008F9072 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = D3D50D192836D382008F9072;
+					};
+				};
+			};
+			buildConfigurationList = D3D50D152836D382008F9072 /* Build configuration list for PBXProject "MarsRoverApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3D50D112836D382008F9072;
+			productRefGroup = D3D50D1B2836D382008F9072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3D50D192836D382008F9072 /* MarsRoverApp */,
+				D3D50D292836D385008F9072 /* MarsRoverAppTests */,
+				D3D50D332836D385008F9072 /* MarsRoverAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3D50D182836D382008F9072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D50D252836D385008F9072 /* Preview Assets.xcassets in Resources */,
+				D3D50D222836D385008F9072 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D50D282836D385008F9072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D50D322836D385008F9072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3D50D162836D382008F9072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D50D4B2836D434008F9072 /* MainView.swift in Sources */,
+				D3D50D4F2836D4E1008F9072 /* CameraDetailView.swift in Sources */,
+				D3D50D512836D4F2008F9072 /* CameraListView.swift in Sources */,
+				D3D50D1E2836D382008F9072 /* MarsRoverAppApp.swift in Sources */,
+				D3D50D4D2836D451008F9072 /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D50D262836D385008F9072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D50D2F2836D385008F9072 /* MarsRoverAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D50D302836D385008F9072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D50D3B2836D385008F9072 /* MarsRoverAppUITestsLaunchTests.swift in Sources */,
+				D3D50D392836D385008F9072 /* MarsRoverAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3D50D2C2836D385008F9072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D50D192836D382008F9072 /* MarsRoverApp */;
+			targetProxy = D3D50D2B2836D385008F9072 /* PBXContainerItemProxy */;
+		};
+		D3D50D362836D385008F9072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D50D192836D382008F9072 /* MarsRoverApp */;
+			targetProxy = D3D50D352836D385008F9072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3D50D3C2836D385008F9072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3D50D3D2836D385008F9072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3D50D3F2836D385008F9072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarsRoverApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarsRoverApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercan.MarsRoverApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3D50D402836D385008F9072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarsRoverApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarsRoverApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercan.MarsRoverApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3D50D422836D385008F9072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercan.MarsRoverAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsRoverApp.app/MarsRoverApp";
+			};
+			name = Debug;
+		};
+		D3D50D432836D385008F9072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercan.MarsRoverAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsRoverApp.app/MarsRoverApp";
+			};
+			name = Release;
+		};
+		D3D50D452836D385008F9072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercan.MarsRoverAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsRoverApp;
+			};
+			name = Debug;
+		};
+		D3D50D462836D385008F9072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercan.MarsRoverAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsRoverApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3D50D152836D382008F9072 /* Build configuration list for PBXProject "MarsRoverApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D50D3C2836D385008F9072 /* Debug */,
+				D3D50D3D2836D385008F9072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D50D3E2836D385008F9072 /* Build configuration list for PBXNativeTarget "MarsRoverApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D50D3F2836D385008F9072 /* Debug */,
+				D3D50D402836D385008F9072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D50D412836D385008F9072 /* Build configuration list for PBXNativeTarget "MarsRoverAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D50D422836D385008F9072 /* Debug */,
+				D3D50D432836D385008F9072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D50D442836D385008F9072 /* Build configuration list for PBXNativeTarget "MarsRoverAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D50D452836D385008F9072 /* Debug */,
+				D3D50D462836D385008F9072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3D50D122836D382008F9072 /* Project object */;
+}
