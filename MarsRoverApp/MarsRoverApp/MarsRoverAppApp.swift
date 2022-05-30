@@ -11,7 +11,7 @@ import SwiftUI
 struct MarsRoverAppApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            CameraView()
         }
     }
 }

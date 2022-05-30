@@ -21,7 +21,7 @@ struct CameraDetailView: View {
                     .opacity(1.0)
             }
         }
-    }
+    } 
 }
 
 

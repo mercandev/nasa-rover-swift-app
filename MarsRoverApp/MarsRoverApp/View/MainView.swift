@@ -44,7 +44,30 @@ struct MainView: View {
                             .frame(width: 300, height: 170)
                             .position(x: 326, y: 140)
                     }
+                   
+                    VStack{
+                        Button {
+                            
+                        } label: {
+                            Text("dıscover the curıosıty")
+                                .bold()
+                                .textCase(.uppercase)
+                                .font(.custom("JuliusSansOne-Regular", size: 16))
+                                .frame(width: 280, height: 50)
+                                .foregroundColor(.white)
+                                .overlay(Capsule().stroke(LinearGradient(gradient: Gradient(colors:[Color(.white)]), startPoint: .leading, endPoint: .trailing), lineWidth: 1))
+                        }
+                    }
                     
+                    VStack{
+                        Text("nasa - 2*22")
+                            .foregroundColor(.white)
+                            .font(.custom("JuliusSansOne-Regular", size: 10))
+                            .textCase(.uppercase)
+                            .position(x: 20, y: 700)
+                            .frame(width: 300, height: 170)
+                            .position(x: 326, y: 140)
+                    }
                 }
             }
         }
@@ -53,7 +76,7 @@ struct MainView: View {
     struct MainView_Previews: PreviewProvider {
         static var previews: some View {
             MainView()
-                .previewInterfaceOrientation(.portraitUpsideDown)
+                .previewInterfaceOrientation(.portrait)
         }
     }
 

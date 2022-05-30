@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32525B52845779800AA744F /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32525B42845779800AA744F /* Api.swift */; };
 		D3D50D1E2836D382008F9072 /* MarsRoverAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D50D1D2836D382008F9072 /* MarsRoverAppApp.swift */; };
 		D3D50D222836D385008F9072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D50D212836D385008F9072 /* Assets.xcassets */; };
 		D3D50D252836D385008F9072 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D50D242836D385008F9072 /* Preview Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D32525B42845779800AA744F /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		D3D50D1A2836D382008F9072 /* MarsRoverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsRoverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D50D1D2836D382008F9072 /* MarsRoverAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverAppApp.swift; sourceTree = "<group>"; };
 		D3D50D212836D385008F9072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D32525B32845778600AA744F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D32525B42845779800AA744F /* Api.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		D3D50D112836D382008F9072 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +112,7 @@
 		D3D50D1C2836D382008F9072 /* MarsRoverApp */ = {
 			isa = PBXGroup;
 			children = (
+				D32525B32845778600AA744F /* Data */,
 				D3D50D562836E5F9008F9072 /* Resources */,
 				D3D50D552836E158008F9072 /* Info.plist */,
 				D3D50D472836D3F1008F9072 /* View */,
@@ -294,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32525B52845779800AA744F /* Api.swift in Sources */,
 				D3D50D4B2836D434008F9072 /* MainView.swift in Sources */,
 				D3D50D4F2836D4E1008F9072 /* CameraDetailView.swift in Sources */,
 				D3D50D512836D4F2008F9072 /* CameraListView.swift in Sources */,
